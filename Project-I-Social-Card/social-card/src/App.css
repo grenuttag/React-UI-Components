@@ -13,6 +13,16 @@ body {
   font: 1.4rem "Helvetica Neue", Helvetica, sans-serif;
 }
 
+a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
 .post {
   width: 500px;
   margin-left: 60px;

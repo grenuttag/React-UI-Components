@@ -6,16 +6,14 @@ import ImageThumbnail from "./ImageThumbnail";
 
 import "./Header.css";
 
-class HeaderContainer extends React.Component {
-  render() {
-    return (
-      <header className="post-header">
-        <ImageThumbnail />
-        <HeaderTitle />
-        <HeaderContent />
-      </header>
-    );
-  }
-}
+const HeaderContainer = () => {
+  return (
+    <header className="post-header">
+      <ImageThumbnail />
+      <HeaderTitle />
+      <HeaderContent />
+    </header>
+  );
+};
 
 export default HeaderContainer;

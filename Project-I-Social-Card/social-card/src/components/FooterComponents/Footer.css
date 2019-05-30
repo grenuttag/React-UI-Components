@@ -1,0 +1,19 @@
+.post-actions {
+  margin-top: 15px;
+}
+
+.post-action {
+  color: #444;
+  padding-right: 50px;
+}
+
+.post-action:hover {
+  color: #222;
+  cursor: pointer;
+  transition: color 0.25s linear;
+}
+
+.action-count {
+  font-size: 1.2rem;
+  padding-left: 5px;
+}

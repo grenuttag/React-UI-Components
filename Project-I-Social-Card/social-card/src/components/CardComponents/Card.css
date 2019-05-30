@@ -10,6 +10,10 @@
   width: 480px;
 }
 
+.card a {
+  color: #444;
+}
+
 .banner {
   /* Remove bottom border */
   border-bottom-left-radius: 0;
@@ -35,7 +39,6 @@
 
 .link-hyperlink {
   color: #aaa;
-  text-decoration: none;
 }
 
 .link-hyperlink:hover {
