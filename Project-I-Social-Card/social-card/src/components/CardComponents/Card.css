@@ -11,7 +11,7 @@
 }
 
 .card a {
-  color: #444;
+  color: #222;
 }
 
 .banner {
@@ -19,7 +19,7 @@
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 
-  /* Conform image to width of card element*/
+  /* Conform image to width of card element */
   width: 100%;
   max-width: 480px;
   height: auto;
@@ -37,10 +37,10 @@
   margin: 8px 0;
 }
 
-.link-hyperlink {
+.link-domain {
   color: #aaa;
 }
 
-.link-hyperlink:hover {
+.link-domain:hover {
   color: #999;
 }
