@@ -11,11 +11,9 @@ const App = () => {
     <div className="app">
       <CalculatorDisplay />
 
-      <div className="entry">
-        <header className="clear">
+      <div className="container">
+        <div className="entry">
           <ActionButton text="Clear" />
-        </header>
-        <section className="digits">
           <NumberButton text="1" />
           <NumberButton text="2" />
           <NumberButton text="3" />
@@ -25,17 +23,15 @@ const App = () => {
           <NumberButton text="7" />
           <NumberButton text="8" />
           <NumberButton text="9" />
-        </section>
-        <footer className="zero">
           <ActionButton text="0" />
-        </footer>
-      </div>
-      <div className="operations">
-        <NumberButton buttonStyle="operation" text="/" />
-        <NumberButton buttonStyle="operation" text="*" />
-        <NumberButton buttonStyle="operation" text="-" />
-        <NumberButton buttonStyle="operation" text="+" />
-        <NumberButton buttonStyle="operation" text="=" />
+        </div>
+        <div className="operations">
+          <NumberButton buttonStyle="operation" text="&divide;" />
+          <NumberButton buttonStyle="operation" text="&times;" />
+          <NumberButton buttonStyle="operation" text="&minus;" />
+          <NumberButton buttonStyle="operation" text="&#43;" />
+          <NumberButton buttonStyle="operation" text="&#61;" />
+        </div>
       </div>
     </div>
   );

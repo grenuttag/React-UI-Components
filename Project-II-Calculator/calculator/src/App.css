@@ -1,17 +1,27 @@
 body {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font: 62.5% "IBM Plex Mono", monospace;
 }
 
 .app {
-  width: 500px;
+  width: 325px;
+  margin: 25px auto;
+}
+
+.container,
+.entry {
+  display: flex;
 }
 
 .entry {
+  flex-flow: row wrap;
+  width: 250px;
 }
 
-.digits {
-  display: flex;
-  width: 280px;
-  flex-flow: row wrap;
+.entry > div {
+  flex: 1 0 25%;
+}
+
+.entry > .fullwidth {
+  flex: 1 0 100%;
 }
