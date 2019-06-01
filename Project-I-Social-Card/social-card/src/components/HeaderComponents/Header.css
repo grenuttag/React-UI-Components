@@ -1,1 +1,34 @@
 /* All styles for your header Components live here */
+
+.avatar {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin-left: -65px;
+}
+
+.post-meta span {
+  padding-right: 8px;
+}
+
+.post-displayname {
+  font-weight: bold;
+}
+
+.post-username::before {
+  content: "@";
+}
+
+.post-username,
+.post-pubdate {
+  color: #999;
+}
+
+.post-pubdate::before {
+  content: "\00b7 \00a0";
+  padding-right: 4px;
+}
+
+.body-copy p {
+  line-height: 1.4;
+}

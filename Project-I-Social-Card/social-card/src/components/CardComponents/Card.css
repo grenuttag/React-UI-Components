@@ -1,1 +1,46 @@
 /* All styles for your Card Components live here */
+
+.card,
+.banner {
+  border-radius: 5px;
+}
+
+.card {
+  border: 2px solid #eee;
+  width: 480px;
+}
+
+.card a {
+  color: #222;
+}
+
+.banner {
+  /* Remove bottom border */
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+  /* Conform image to width of card element */
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+}
+
+.link-meta {
+  padding: 10px;
+}
+
+.link-title {
+  font-weight: bold;
+}
+
+.link-description {
+  margin: 8px 0;
+}
+
+.link-domain {
+  color: #aaa;
+}
+
+.link-domain:hover {
+  color: #999;
+}
