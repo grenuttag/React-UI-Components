@@ -1,0 +1,27 @@
+body {
+  box-sizing: border-box;
+  font: 62.5% "IBM Plex Mono", monospace;
+}
+
+.app {
+  width: 325px;
+  margin: 25px auto;
+}
+
+.container,
+.entry {
+  display: flex;
+}
+
+.entry {
+  flex-flow: row wrap;
+  width: 250px;
+}
+
+.entry > div {
+  flex: 1 0 25%;
+}
+
+.entry > .fullwidth {
+  flex: 1 0 100%;
+}
